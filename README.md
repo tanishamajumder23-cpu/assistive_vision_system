@@ -208,6 +208,3 @@ for (x, y, w, h) in faces:
 * Bounding boxes displayed in real time
 
 ---
-
-Next, we can upgrade your project with:
-👉 face count (very easy, very impressive)
