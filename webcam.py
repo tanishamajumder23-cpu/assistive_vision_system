@@ -19,6 +19,8 @@ while True: # infinite loop because video= continuous frames
     # Draw rectangles
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
+        cv2.putText(frame, "Person Ahead", (x, y-10),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,255,0), 2)
     cv2.imshow("Webcam", frame)
     # Show grayscale frame
     #cv2.imshow("Webcam", gray)
@@ -28,7 +30,7 @@ while True: # infinite loop because video= continuous frames
     #and Haar Cascade models are trained on 
     #grayscale images, so they perform better with this input.
     #cv2.imshow("Webcam", frame) # displays each frame
-    if cv2.waitKey(1)==27: # Did user press ESC? The ascii of ESC is 27
+    if cv2.waitKey(1) & 0xFF == 27: # Did user press ESC? The ascii of ESC is 27
         break
     if cv2.getWindowProperty("Webcam", cv2.WND_PROP_VISIBLE) < 1:
         # cv2.getWindowProperty("Webcam", cv2.WND_PROP_VISIBLE): check if the window named 'Webcame' is visible
