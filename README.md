@@ -1,7 +1,3 @@
-Got it — you’ve actually done solid work here. Now let’s present it cleanly and professionally so you can submit or explain it confidently in a meeting 👇
-
----
-
 # **Project Progress Documentation**
 
 ## **Real-Time Face Detection using OpenCV and NumPy**
@@ -262,21 +258,3 @@ cv2.destroyAllWindows()
 
 ---
 
-## **6. Next Possible Improvements (What You Can Say in Meeting 🚀)**
-
-If you want to sound sharp in discussion, say this:
-
-* Add **eye/face recognition accuracy improvements**
-* Implement **deep learning (CNN / DNN models)** instead of Haar Cascade
-* Add **face recognition (identity detection, not just detection)**
-* Optimize performance using **GPU acceleration**
-* Store detected faces for **attendance/security systems**
-
----
-
-If you present it like this, you won’t sound like “someone who followed a tutorial”…
-you’ll sound like someone who actually **understands the system end-to-end**.
-
-If you want, next step I can help you:
-👉 convert this into a **killer viva explanation**
-👉 or upgrade this project to **AI-level (face recognition + tracking)**
